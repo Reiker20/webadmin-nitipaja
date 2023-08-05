@@ -26,7 +26,7 @@
     import { useRouter } from 'vue-router';
     const router = useRouter();
     const handleSend = () => {
-        router.push('/ConfirmPassword');
+        router.push('/Login');
     };
     const imageUrl = 'https://shopper.nitipaja.online/storage/images/nitipaja.png';
 </script>

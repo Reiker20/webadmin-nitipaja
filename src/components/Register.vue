@@ -20,7 +20,7 @@
             <input type="password" class="input-field" placeholder="Password" autocomplete="off" required>
         </div>
         <div class="input-submit">
-            <button class="submit-btn" @click="handleSignIn"></button>
+            <button class="submit-btn" @click="handleSignUp"></button>
             <label for="submit">Daftar</label>
         </div>   
         <div class="login-with-google">
@@ -42,8 +42,8 @@
     const handleClick = () => {
         router.push('/dashboard');
     };
-    const handleSignIn = () => {
-        router.push('/Sidebar');
+    const handleSignUp = () => {
+        router.push('/Login');
     };
     const goToLogin = () => {
         router.push('/Login');
